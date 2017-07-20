@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE=html>
 <html>
 	<head>
-		<link rel="stylesheet" href="ResumeStylesheet.css"/>
-		<title></title>
+	  <title>Prime Challenge: Guillermo Olivos</title>
+	  <link rel="stylesheet" href="ResumeStylesheet.css"/>
 	</head>
 	<body>
 		<div id="header">
