@@ -1,13 +1,13 @@
-<!DOCTYPE=html>
+<!DOCTYPE html>
 <html>
 	<head>
-	  <title>Prime Challenge: Guillermo Olivos</title>
-	  <link rel="stylesheet" href="ResumeStylesheet.css"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
 	</head>
 	<body>
 		<div id="header">
-			<p id="name">Your Name Here</p>
-			<a href="mailto:you@yourdomain.com"><p id="email">you@yourdomain.com</p></a>
+			<p id="name">Guillermo Christopher Olivos</p>
+			<a href="mailto:gcolivos@gmail.com"><p id="email">gcolivos@gmail.com</p></a>
 		</div>
 		<div class="left"></div>
 		<div class="right">
