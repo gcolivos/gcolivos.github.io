@@ -1,15 +1,30 @@
+
 #header{
     border-radius:5px;
     border: 2px solid black;
-    height:100px;
-    width:300px;
-    background-color:#469E38;
-    opacity:0.2;
     align:center;
-    color: #FFF;
-    font-size: 32px;
-    padding-top: 100px;
+    color: black;
+    padding-top: 5px;
     text-align: center;
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
+  	line-height: 0.5em;
+  	background-color: #E8E85E;
+  	opacity:0.8;
+}
+
+#section_headline{
+  color:black;
+  font-family:"Playfair Display", serif;
+  text-transform:uppercase;
+  border-style: 2px solid black;
+  border-bottom: outset;
+  padding-bottom: 1px;
+}
+
+.left{
+  align:left;
+  color: black;
+  font-family:"Playfair Display", serif;
+  line-height: 1.2em;
 }
