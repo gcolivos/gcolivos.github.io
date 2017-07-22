@@ -1,17 +1,54 @@
-#header{
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+}
+
+.header{
     border-radius:5px;
-    border: 2px solid black;
+    border: 50% solid black;
     color: black;
     padding-top: 5px;
+    margin-bottom:10px;
     text-align: center;
     font-family:"Playfair Display", serif;
     text-transform:uppercase;
   	line-height: 0.5em;
-  	background-color: #E8E85E;
+  	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, orange, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, orange, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, orange, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, orange, yellow); /* Standard syntax */
   	opacity:0.8;
+  	position:fixed;
+  border-bottom: 1px solid #466995;
+  overflow-y: auto;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  height:100px;
 }
 
-#section_headline{
+.content
+{
+    position:absolute;
+    top: 100px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;        
+}
+
+.section_headline{
   color:black;
   font-family:"Playfair Display", serif;
   text-transform:uppercase;
@@ -19,13 +56,17 @@
   padding-bottom: 1px;
 }
 
-#section_subheadline{
+.section_subheadline{
   color: black;
   text-align:left;
   text-transform:uppercase;
   font-family:"Playfair Display", serif;
   font-style:italic;
   line-height:1em;
+}
+
+p.section_subheadline{
+    text-transform:none;
 }
 
 .left{
