@@ -17,50 +17,48 @@
     text-transform:uppercase;
   	line-height: 0.5em;
   	background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, orange, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, orange, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, orange, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, orange, yellow); /* Standard syntax */
+    background: -webkit-linear-gradient(left top, orange, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, orange, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, orange, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, orange, yellow); /* Standard syntax */
   	opacity:0.8;
   	position:fixed;
-  border-bottom: 1px solid #466995;
-  overflow-y: auto;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: 1000;
-  height:100px;
+    border-bottom: 1px solid #466995;
+    overflow-y: auto;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    height:100px;
 }
 
-.content
-{
+.content{
     position:absolute;
     top: 100px;
-    left:0px;
-    right:0px;
-    bottom:0px;
+    left:20px;
+    right:20px;
+    bottom:20px;
     overflow-y:scroll;
-    background-color: #FFF;
     margin: 40;
     padding: 10;
 }
 
 .section_headline{
-  color:black;
-  font-family:"Playfair Display", serif;
-  text-transform:uppercase;
-  border-bottom: outset;
-  margin-bottom: 1px;
-  line-height:0.3px;
+    color:black;
+    font-family:"Playfair Display", serif;
+    text-transform:uppercase;
+    border-bottom: outset;
+    margin-bottom: 1px;
+    line-height:0.3px;
 }
 
 .section_subheadline{
-  color: black;
-  text-align:left;
-  text-transform:uppercase;
-  font-family:"Playfair Display", serif;
-  font-style:italic;
-  line-height:1em;
+    color: black;
+    text-align:left;
+    text-transform:uppercase;
+    font-family:"Playfair Display", serif;
+    font-style:italic;
+    line-height:1em;
 }
 
 .titles{
@@ -72,10 +70,10 @@
 }
 
 .summary{
-  text-align:left;
-  color: black;
-  font-family:"Playfair Display", serif;
-  line-height: 1.2em;
+    text-align:left;
+    color: black;
+    font-family:"Playfair Display", serif;
+    line-height: 1.2em;
 }
 
 ul{
@@ -91,74 +89,35 @@ h{
 
 #top, #bottom, #left, #right {
 	background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */;
+    background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */;
 	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
+}
+
+#left, #right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+
+#left { 
+    left: 0; 
+}
+
+#right { 
+    right: 0; 
+}
 		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-    bottom:0px;
-    overflow-y:scroll;
-    background-color: #FFF;
-    margin: 40;
-    padding: 10;
-    border-left: 2px dashed gray;
-    border-right: 2px dashed gray; 
+#top, #bottom {
+	left: 0; right: 0;
+	height: 15px;
 }
 
-.section_headline{
-  color:black;
-  font-family:"Playfair Display", serif;
-  text-transform:uppercase;
-  border-bottom: outset;
-  margin-bottom: 1px;
-  line-height:0.3px;
+#top { 
+    top: 0; 
 }
 
-.section_subheadline{
-  color: black;
-  text-align:left;
-  text-transform:uppercase;
-  font-family:"Playfair Display", serif;
-  font-style:italic;
-  line-height:1em;
-}
-
-.titles{
-    margin:0;
-    padding:0;
-    line-height:0;
-    font-style:normal;
-    text-transform:none;
-}
-
-.summary{
-  text-align:left;
-  color: black;
-  font-family:"Playfair Display", serif;
-  line-height: 1.2em;
-}
-
-ul{
-    text-transform: none;
-}
-
-h{
-    margin:0;
-    padding:0;
-    margin-top:20px;
-    margin-bottom:10px;
+#bottom { 
+    bottom: 0; 
 }
