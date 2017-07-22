@@ -41,8 +41,8 @@
     bottom:0px;
     overflow-y:scroll;
     background-color: #FFF;
-    margin: 10;
-    padding: 10;
+    margin: 50px;
+    padding: 10px;
     border-left: 2px dashed gray;
     border-right: 2px dashed gray; 
 }
