@@ -43,6 +43,78 @@
     background-color: #FFF;
     margin: 40;
     padding: 10;
+}
+
+.section_headline{
+  color:black;
+  font-family:"Playfair Display", serif;
+  text-transform:uppercase;
+  border-bottom: outset;
+  margin-bottom: 1px;
+  line-height:0.3px;
+}
+
+.section_subheadline{
+  color: black;
+  text-align:left;
+  text-transform:uppercase;
+  font-family:"Playfair Display", serif;
+  font-style:italic;
+  line-height:1em;
+}
+
+.titles{
+    margin:0;
+    padding:0;
+    line-height:0;
+    font-style:normal;
+    text-transform:none;
+}
+
+.summary{
+  text-align:left;
+  color: black;
+  font-family:"Playfair Display", serif;
+  line-height: 1.2em;
+}
+
+ul{
+    text-transform: none;
+}
+
+h{
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+#top, #bottom, #left, #right {
+	background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+    bottom:0px;
+    overflow-y:scroll;
+    background-color: #FFF;
+    margin: 40;
+    padding: 10;
     border-left: 2px dashed gray;
     border-right: 2px dashed gray; 
 }
