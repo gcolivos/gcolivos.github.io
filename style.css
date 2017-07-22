@@ -41,8 +41,8 @@
     bottom:0px;
     overflow-y:scroll;
     background-color: #FFF;
-    margin: 50px;
-    padding: 10px;
+    margin: 40;
+    padding: 10;
     border-left: 2px dashed gray;
     border-right: 2px dashed gray; 
 }
@@ -52,7 +52,8 @@
   font-family:"Playfair Display", serif;
   text-transform:uppercase;
   border-bottom: outset;
-  padding-bottom: 1px;
+  margin-bottom: 1px;
+  line-height:0.3px;
 }
 
 .section_subheadline{
@@ -64,11 +65,15 @@
   line-height:1em;
 }
 
-p.section_subheadline{
+.titles{
+    margin:0;
+    padding:0;
+    line-height:0;
+    font-style:normal;
     text-transform:none;
 }
 
-.left{
+.summary{
   text-align:left;
   color: black;
   font-family:"Playfair Display", serif;
@@ -79,7 +84,9 @@ ul{
     text-transform: none;
 }
 
-h4{
-    margin-top:10px;
+h{
+    margin:0;
+    padding:0;
+    margin-top:20px;
     margin-bottom:10px;
 }
